@@ -3,14 +3,14 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I'm a passionate full stack developer with a knack for creating powerful and scalable web applications. 
-With 5 months of learning and hands-on experience, I have honed my skills in front-end technologies such as React and Next.js, as well as back-end technologies such as Node.js, PHP, and MongoDB. 
+export const HERO_CONTENT = `I'm a passionate full-stack developer with a knack for creating powerful and scalable web applications. 
+With 7 months of learning and hands-on experience, I have honed my skills in front-end technologies such as React and Next.js, as well as back-end technologies such as Node.js and MongoDB. 
 My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. 
-With 5 months of experience, I have worked with various technologies, including React, Next.js, Node.js, Javascript, Python, HTML/CSS, and MongoDB. 
-My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
-I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and flexible full-stack developer with a passion for creating efficient and user-friendly web applications. 
+With 7 months of learning and hands-on experience, I have worked with various technologies, including React, Next.js, Node.js, JavaScript, Python, HTML/CSS, and MongoDB. 
+My web development journey began with a deep curiosity about how things work, and I have been constantly striving to learn and adapt to new challenges. I thrive in a collaborative environment and enjoy solving complex problems to provide high-quality solutions. 
+Outside of programming, I enjoy staying active, exploring new technologies, and contributing to projects.`;
 
 export const EXPERIENCES = [
   {
@@ -75,7 +75,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Hoang Dao Thuy Stree, Trung Hoa, Ha Noi, Viet Nam ",
-  phoneNo: "+84 9433 383 98 ",
+  address: "Hoang Dao Thuy Street, Trung Hoa Ward, Cau Giay District, Hanoi, Viet Nam",
+  phoneNo: "+84 943 338 398 ",
   email: "thanhduong20066@gmail.com",
 };
