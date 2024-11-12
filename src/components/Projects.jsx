@@ -27,7 +27,7 @@ const Projects = () => {
                         height={150}
                         alt={project.title}
                         className="mb-6 rounded" 
-                        />  
+                     />
                   </motion.div>
                   <motion.div 
                      whileInView={{ opacity: 1, x:0 }}
@@ -35,7 +35,7 @@ const Projects = () => {
                      transition={{ duration: 1 }}
                      className="w-full max-w-xl lg:w-3/4"
                   >
-                     <h6 className="mb-2 font-semibold">{project.title}</h6>
+                     <a className="border-b mb-2 font-semibold" href={project.link}>{project.title}</a>
                      <p className="mb-4 text-neutral-400">{project.description}</p>
                      {project.technologies.map((tech, index) => (
                         <span 
